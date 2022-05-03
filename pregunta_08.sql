@@ -41,3 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT DISTINCT YEAR, AVG(c21) FROM tbl2 ORDER BY YEAR;

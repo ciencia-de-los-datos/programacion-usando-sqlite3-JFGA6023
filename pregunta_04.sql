@@ -39,4 +39,4 @@
 --  2  C  CCCE
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT K0, C16 FROM tbl1 WHERE c16 LIKE 'K0%';
+SELECT K0, C16 FROM tbl1 WHERE K0 =SUBSTR(C16,1,1);

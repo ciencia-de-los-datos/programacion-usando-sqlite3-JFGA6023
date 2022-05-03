@@ -41,3 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT K0, C16 FROM tbl1 WHERE c02 LIKE '100 ' OR c02 LIKE'600';
